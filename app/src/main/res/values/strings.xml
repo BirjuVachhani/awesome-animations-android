@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Awesome Animations</string>
     <string name="pesto_title">Pesto</string>
+    <string name="search">Search</string>
     <string-array name="pesto_titles">
         <item>Pesto Bruchetta</item>
         <item>Rustic purple mash</item>
