@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Awesome Animations</string>
+    <string name="pesto_title">Pesto</string>
+    <string-array name="pesto_titles">
+        <item>Pesto Bruchetta</item>
+        <item>Rustic purple mash</item>
+        <item>Bacon Sprouts</item>
+        <item>Oven Sausage</item>
+        <item>Chicken tostadas</item>
+        <item>Coconut rice</item>
+        <item>Sicilian-Style sardines</item>
+        <item>Seared sesame fish</item>
+        <item>Herb artichoke</item>
+        <item>Pesto bruschetta</item>
+        <item>Garlic bok choy</item>
+        <item>Fresh Fettuccine</item>
+        <item>Gin basil cocktail</item>
+    </string-array>
+
+    <string-array name="pesto_descriptions">
+        <item>Bask in greens this season by trying this delightful take on traditional bruschetta. Top with a dollop of homemade pesto, and season with freshly ground sea salt and pepper.</item>
+        <item>Abundant in color, and healthy, delicious goodness, cooking with these South American purple potatoes is a treat. Boil, mash, bake, or roast them. For taste cook with chicken stock, and a dash of extra virgin olive oil.</item>
+        <item>This beautiful sprouts recipe is the most glorious side dish on a cold winter’s night. Construct it with bacon or fake-on, but always make sure the sprouts are deliciously seasoned and appropriately sautéed.</item>
+        <item>Robust cuts of portuguese sausage add layers of flavour. Bake or fry until sausages are slightly browned and with a crispy skin. Serve warm and with cuts of pineapple for a delightful mix of sweet and savory flavour. This is the perfect dish after a swim in the sea.</item>
+        <item>Crisp flavours and a bit of spice make this roasted chicken dish an easy go to when cooking for large groups. Top with Baja sauce for an extra kick of spice.</item>
+        <item>This dish is a terrific pairing to almost any main. Bonus- it’s quick, easy to make, and turns even the simplest of dishes into a delicacy. Sweet coconut cream will leave your mouth watering, with yummy caramelized flecks of rice adding an extra bit of taste. Fluff with fork before serving for best results.</item>
+        <item>My go to way to eat sardines is with a splash of tangy lemon and fresh fennel drizzled on top. The best thing about this dish is the flavour it packs. Prepaid with wild caught sardines or canned.</item>
+        <item>Cuts of fish like this are perfect for simple searing with bright flavours. Try Sesame seeds on these fillets for crusty skin filled with crunch. For added flavour try dipping in a homemade ponzu sauce - delicious.</item>
+        <item>This tasty and healthy veggie is a favorite. Artichoke like this can be paired with a hearty main or works well as a small meal with some white wine on the side. Simple and fresh, all foodies love tasty artichoke.</item>
+        <item>Life is good when you add amazingly warm bread, fresh pesto sauce, and roasted tomatoes to the table. This a classic starter to break out in a pinch. It’s easy to make and extra tasty.</item>
+        <item>Great stir-fried bok choy starts at the market. For me, nothing says tasty like garlic and baby bok choy. Choose fresh, crisp greens. Once home, wash, chop, and then ready for the wok. No family style spread is complete without these greens.</item>
+        <item>Satisfy a need for rich, creamy homemade goodness with this classic. Creamy fettuccine alfredo will have you hitting the gym the next day, but it’s so good it’s worth it.</item>
+        <item>This mellow and herb filled blending of simple ingredients is easy enough to mix that a novice host will feel like a seasoned bartender. Top with crushed basil, shake or stir.</item>
+    </string-array>
+
+    <string-array name="ingredients1">
+        <item>Mozzarella cheese</item>
+        <item>Toasts</item>
+        <item>Homemade pesto</item>
+        <item>Freshly ground pepper</item>
+        <item>Salt</item>
+    </string-array>
+
+    <string-array name="ingredients2">
+        <item>Purple potatoes, skin on</item>
+        <item>Salt</item>
+        <item>Lemon</item>
+        <item>Chicken stock</item>
+        <item>Extra virgin olive oil</item>
+    </string-array>
+
+    <string-array name="ingredients3">
+        <item>Brussel sprouts</item>
+        <item>Bacon</item>
+        <item>Shaved parmesan cheese</item>
+        <item>Extra virgin olive oil</item>
+        <item>Lemon juice</item>
+        <item>Sun dried tomatoes</item>
+    </string-array>
+
+    <string-array name="ingredients4">
+        <item>Linguisa</item>
+        <item>Pineapple or other fresh citrus fruit</item>
+    </string-array>
+
+    <string-array name="ingredients5">
+        <item>Small corn tortillas</item>
+        <item>Chopped onion</item>
+        <item>Cream</item>
+        <item>Roasted, shredded chicken breast</item>
+    </string-array>
+
+    <string-array name="ingredients6">
+        <item>Jasmine rice</item>
+        <item>Water</item>
+        <item>Coconut milk</item>
+        <item>Sugar</item>
+        <item>Salt</item>
+    </string-array>
+
+    <string-array name="ingredients7">
+        <item>Dry white wine</item>
+        <item>Finely chopped shallot</item>
+        <item>Fresh lemon juice</item>
+        <item>Fennel seeds, crushed</item>
+        <item>Extra virgin olive oil, to taste</item>
+        <item>Sardines in oil, drained</item>
+    </string-array>
+
+    <string-array name="ingredients8">
+        <item>Thin fish fillets</item>
+        <item>Salt and black pepper to taste</item>
+        <item>Sesame seeds</item>
+        <item>Sesame oil</item>
+        <item>Lime juice</item>
+        <item>Soy sauce</item>
+    </string-array>
+
+    <string-array name="ingredients9">
+        <item>Small garlic clove, peeled</item>
+        <item>Whole artichokes</item>
+        <item>Fresh lemon juice</item>
+        <item>Unsalted butter</item>
+        <item>Extra-virgin olive oil</item>
+        <item>Freshly ground black pepper</item>
+    </string-array>
+
+    <string-array name="ingredients10">
+        <item>Sliced French bread</item>
+        <item>Cheese</item>
+        <item>Heirloom tomatoes</item>
+        <item>Fresh basil</item>
+        <item>Garlic</item>
+        <item>Olive oil</item>
+    </string-array>
+
+    <string-array name="ingredients11">
+        <item>Chick broth</item>
+        <item>Soy sauce</item>
+        <item>Sliced garlic</item>
+        <item>Bok choy</item>
+        <item>Sesame oil</item>
+    </string-array>
+
+    <string-array name="ingredients12">
+        <item>Milk</item>
+        <item>Salt</item>
+        <item>Olive oil</item>
+        <item>Fettuccine</item>
+        <item>Fresh basil</item>
+        <item>Fresh ground pepper</item>
+    </string-array>
+
+    <string-array name="ingredients13">
+        <item>Gin</item>
+        <item>Fresh lemon juice</item>
+        <item>Simple syrup</item>
+        <item>Basil leaves, crushed</item>
+    </string-array>
+</resources>

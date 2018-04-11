@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pestoPrimary">#00a184</color>
+    <color name="pestoPrimaryDark">#007e64</color>
+    <color name="pestoAccent">#d63c2f</color>
+    <color name="pestoFab">#d63c2f</color>
+    <color name="pestoBackground">#ebebeb</color>
+    <color name="pestoFontSecondary">#a6a6a6</color>
+    <color name="pestoFontPrimary">#000000</color>
+</resources>
