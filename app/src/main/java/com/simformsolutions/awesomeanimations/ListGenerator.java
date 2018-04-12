@@ -38,7 +38,7 @@ public class ListGenerator {
         List<FoodItem> mlist = new ArrayList<>();
         for (int i = 0; i < titles.length; i++) {
             List<String> ingredientList = getIngredientList(ingredientIds[i]);
-            FoodItem foodItem = new FoodItem(titles[i], desc[i], foodChefs[i], headerImageIds[i], foodTypeIconIds[i], ingredientList);
+            FoodItem foodItem = new FoodItem(String.valueOf(i), titles[i], desc[i], foodChefs[i], headerImageIds[i], foodTypeIconIds[i], ingredientList);
             mlist.add(foodItem);
         }
         return mlist;

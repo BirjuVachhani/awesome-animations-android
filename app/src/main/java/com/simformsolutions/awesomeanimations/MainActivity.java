@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -86,18 +88,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-    @Override
-    public void onItemClick(FoodItem foodItem) {
-        Intent intent = new Intent(this, FoodDetailsActivity.class);
-        intent.putExtra(ITEM_LABLE, foodItem);
-        startActivity(intent);
-    }
-
     public void showMessage(View view) {
         Snackbar.make(view, R.string.snackbar_msg, Snackbar.LENGTH_LONG).setAction("OK", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
             }
         }).show();
+    }
+
+    @Override
+    public void onItemClick(FoodItem foodItem, int position, View itemView) {
+        Intent intent = new Intent(this, FoodDetailsActivity.class);
+        intent.putExtra(ITEM_LABLE, foodItem);
+
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this,
+                itemView.findViewById(R.id.ivHeaderImage),
+                foodItem.getTransitionName());
+        startActivity(intent, options.toBundle());
     }
 }

@@ -1,6 +1,7 @@
 package com.simformsolutions.awesomeanimations;
 
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -48,6 +51,9 @@ public class FoodDetailsActivity extends AppCompatActivity {
     @BindView(R.id.fabFavorite)
     FloatingActionButton fabFavorite;
 
+    @BindView(R.id.rootView)
+    CoordinatorLayout rootView;
+
     private boolean isFavorited = false;
 
     @Override
@@ -58,15 +64,25 @@ public class FoodDetailsActivity extends AppCompatActivity {
         setToolBar();
         if (getIntent() != null) {
             FoodItem foodItem = getIntent().getParcelableExtra(MainActivity.ITEM_LABLE);
+            supportPostponeEnterTransition();
             setReceivedData(foodItem);
         }
     }
 
     private void setReceivedData(FoodItem foodItem) {
         getSupportActionBar().setTitle(foodItem.getTitle());
-        ivHeaderImage.setImageResource(foodItem.getHearderImageId());
-        //Glide.with(this).load(foodItem.getHearderImageId()).into(ivHeaderImage);
-        Glide.with(this).load(foodItem.getFoodTypeIconId()).into(ivFoodTypeIcon);
+        ivHeaderImage.setTransitionName(foodItem.getTransitionName());
+        Picasso.get().load(foodItem.getHearderImageId()).placeholder(R.drawable.placeholder2).noFade().into(ivHeaderImage, new Callback() {
+            @Override
+            public void onSuccess() {
+                supportStartPostponedEnterTransition();
+            }
+
+            @Override
+            public void onError(Exception e) {
+            }
+        });
+        Picasso.get().load(foodItem.getFoodTypeIconId()).fit().noFade().into(ivFoodTypeIcon);
         tvFoodName.setText(foodItem.getTitle());
         tvFoodChef.setText(foodItem.getChefName());
         tvFoodDesc.setText(foodItem.getDescription());

@@ -8,6 +8,7 @@ import java.util.List;
 
 public class FoodItem implements Parcelable {
 
+    private String transitionName;
     private String title;
     private String description;
     private String chefName;
@@ -15,7 +16,8 @@ public class FoodItem implements Parcelable {
     private int foodTypeIconId;
     private List<String> ingredientList;
 
-    public FoodItem(String title, String description, String chefName, int hearderImageId, int foodTypeIconId, List<String> ingredientList) {
+    public FoodItem(String transitionName, String title, String description, String chefName, int hearderImageId, int foodTypeIconId, List<String> ingredientList) {
+        this.transitionName = transitionName;
         this.title = title;
         this.description = description;
         this.chefName = chefName;
@@ -25,6 +27,7 @@ public class FoodItem implements Parcelable {
     }
 
     protected FoodItem(Parcel in) {
+        transitionName = in.readString();
         title = in.readString();
         description = in.readString();
         chefName = in.readString();
@@ -44,6 +47,10 @@ public class FoodItem implements Parcelable {
             return new FoodItem[size];
         }
     };
+
+    public String getTransitionName() {
+        return transitionName;
+    }
 
     public String getTitle() {
         return title;
@@ -76,6 +83,7 @@ public class FoodItem implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(transitionName);
         dest.writeString(title);
         dest.writeString(description);
         dest.writeString(chefName);
