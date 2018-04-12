@@ -12,6 +12,14 @@
         <item name="colorPrimary">@color/pestoPrimary</item>
         <item name="colorPrimaryDark">@color/pestoPrimaryDark</item>
         <item name="colorAccent">@color/pestoAccent</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
     </style>
 
+    <style name="PestoTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pestoPrimary</item>
+        <item name="colorPrimaryDark">@color/pestoPrimaryDark</item>
+        <item name="colorAccent">@color/pestoAccent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
 </resources>

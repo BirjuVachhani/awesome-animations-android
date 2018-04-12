@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:enabled="false"
+            android:title="@string/favorite" />
+
+        <item
+            android:id="@+id/nav_saved"
+            android:enabled="false"
+            android:title="@string/saved" />
+
+        <item
+            android:id="@+id/nav_trending"
+            android:enabled="false"
+            android:title="@string/trending" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:enabled="false"
+            android:title="@string/settings" />
+    </group>
+</menu>

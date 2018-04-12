@@ -2,6 +2,22 @@
     <string name="app_name">Awesome Animations</string>
     <string name="pesto_title">Pesto</string>
     <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="trending">Trending</string>
+    <string name="settings">Settings</string>
+    <string name="saved">Saved</string>
+    <string name="favorite">Favorite</string>
+    <string name="dean_winchester">Dean Winchester</string>
+    <string name="user_email">dean.winchester@gmail.com</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="timer">Timer</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="snackbar_msg">This is a snackbar!</string>
+    <string name="fav_added">Added to favorites.!</string>
+    <string name="fav_removed">Removed from favorites.!</string>
+
     <string-array name="pesto_titles">
         <item>Pesto Bruchetta</item>
         <item>Rustic purple mash</item>
@@ -32,6 +48,22 @@
         <item>Great stir-fried bok choy starts at the market. For me, nothing says tasty like garlic and baby bok choy. Choose fresh, crisp greens. Once home, wash, chop, and then ready for the wok. No family style spread is complete without these greens.</item>
         <item>Satisfy a need for rich, creamy homemade goodness with this classic. Creamy fettuccine alfredo will have you hitting the gym the next day, but it’s so good it’s worth it.</item>
         <item>This mellow and herb filled blending of simple ingredients is easy enough to mix that a novice host will feel like a seasoned bartender. Top with crushed basil, shake or stir.</item>
+    </string-array>
+
+    <string-array name="food_chefs">
+        <item>Peter Carlsson</item>
+        <item>Trevor Hansen</item>
+        <item>Ali Connors</item>
+        <item>Sandra Adams</item>
+        <item>Peter Carlsson</item>
+        <item>Ali Connors</item>
+        <item>Peter Carlsson</item>
+        <item>Ali Connors</item>
+        <item>Sandra Adams</item>
+        <item>Trevor Hansen</item>
+        <item>Sandra Adams</item>
+        <item>Ali Connors</item>
+        <item>Trevor Hansen</item>
     </string-array>
 
     <string-array name="ingredients1">
